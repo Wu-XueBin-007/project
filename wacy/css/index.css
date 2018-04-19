@@ -1,0 +1,344 @@
+/*左边推广开始*/
+.home_channel_icon_stick_wrapper{
+	width: 61px;
+	height: 314px;
+	position: fixed;
+	left: 0;
+	top: 180px;
+	
+}
+
+
+/*左边推广结束*/
+
+
+/*悬浮二维码开始*/
+
+
+.home_wechat_qrcode_box{
+	
+	width: 112px;height: 157px;position: fixed;right: 0;top: 310px;
+	/*background: sandybrown;*/text-align: center;border: 1px solid #333;
+}
+.home_wechat_qrcode_box>img{
+	width: 110px;height: 110px;
+}
+.shut_down{
+	position: absolute;top: -18px;right: 0;font-size: 16px;cursor: pointer;
+}
+
+
+/*悬浮二维码结束*/
+/*促销活动开始*/
+
+
+.header_promotion {
+	width: 100% height: 22px;
+	text-align: center;
+	line-height: 22px;
+	background: #333;
+	margin: 0 auto;
+	color: white;
+	font-size: 12px;
+}
+
+
+/*促销活动结束*/
+
+
+
+
+/*banner开始*/
+
+.bannerbox {
+	width: 964px;
+	height: 385px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	
+	top: -7px;
+	/*background: url(../img/118_ymsh_b_964x385_.jpg;*/
+}
+
+.bannerbox .banner {
+	width: 5784px;
+	height: 385px;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.bannerbox .banner img {
+	float: left;
+	width: 964px;
+	height: 385px;
+	
+}
+
+.bannerbox_leftbtn,
+.bannerbox_rightbtn {
+	width: 46px;
+	height: 46px;
+	position: absolute;
+	top: 50%;
+	margin-top: -23px;
+	/*background: #777777;*/
+	text-align: center;
+	line-height: 46px;
+	font-size: 30px;
+	display: none;
+	/*background: white;*/
+}
+
+.bannerbox_leftbtn img,
+.bannerbox_rightbtn img {
+	width: 46px;
+	height: 46px;
+	cursor: pointer;
+}
+
+.bannerbox_rightbtn {
+	left: 30px;
+	transform: rotateZ(0deg);
+}
+
+.bannerbox_leftbtn {
+	transform: rotateZ(180deg);
+	right: 30px;
+}
+
+.bannerbox .slick_dots {
+	width: 100%;
+	height: 13px;
+	text-align: center;
+	line-height: 13px;
+	/*background: darkblue;*/
+	z-index: 2;
+	position: absolute;
+	bottom: 10px;
+}
+
+.bannerbox .slick_dots>div {
+	width: 13px;
+	height: 13px;
+	border-radius: 50%;
+	background: #cbb2b7;
+	display: inline-block;
+	margin-left: 20px;
+	cursor: pointer;
+}
+
+.bannerbox .slick_dots .now {
+	background: red;
+}
+
+
+/*banner结束
+
+
+/*--风尚聚焦开始-*/
+
+.title_with_star {
+	width: 964px;
+	height: 538px;
+	margin: 5px auto;
+	position: relative;
+	/*background: lightskyblue;*/
+}
+
+.title_with_star .title_with_star_top {
+	width: 964px;
+	height: 43px;
+}
+
+.title_with_star_top>.left,
+.title_with_star_top>.right {
+	width: 408px;
+	height: 42px;
+	border-bottom: 1px solid #CBB2B7;
+}
+
+.title_with_star_top>.middle {
+	width: 144px;
+	height: 38px;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+	line-height: 38px;
+}
+
+.title_with_star_top>.middle>span {
+	width: 144px;
+	height: 6px;
+	position: absolute;
+	bottom: -28px;
+	left: 0;
+	text-align: center;
+	line-height: 6px;
+	margin-left: 2px;
+	font-size: 12px;
+	/*font-weight: 600;*/
+}
+
+.title_with_star_top>.middle>h2 {
+	width: 144px;
+	height: 32px;
+	font: 1.5rem/32px "微软雅黑";
+	position: absolute;
+	bottom: -18px;
+}
+
+.middle .icon_star {
+	display: inline-block;
+	padding: 0;
+	font-family: sans-serif;
+	font-size: 0.725rem;
+	/*font-style: normal;*/
+	color: #e11a2b;
+}
+
+.title_with_star>a,
+.title_with_star>img {
+	width: 964px;
+	height: 450px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+
+/*--风尚聚焦结束-*/
+
+
+/*--商品栏开始-*/
+
+.commodity {
+	width: 970px;
+	height: 735px;
+	margin: 30px auto;
+	/*background: salmon;*/
+	position: relative;
+}
+
+.commodity .product_tile {
+	width: 194px;
+	height: 255px;
+	text-align: center;
+	position: relative;
+	/*background: yellow;*/
+}
+
+.commodity .product_tile>a,
+.commodity .product_tile a>img {
+	width: 186px;
+	height: 186px;
+	margin: 0 auto;
+}
+
+.product_name>a {
+	width: 181px;
+	height: 16px;
+	text-align: center;
+	line-height: 16px;
+	position: absolute;
+	bottom: 40px;
+	left: 0;
+}
+
+.product_pricing {
+	width: 194px;
+	height: 19px;
+	text-align: center;
+	line-height: 19px;
+	position: absolute;
+	bottom: 15px;
+}
+
+.present_price,
+.product_price_range_line {
+	color: #000000;
+}
+
+.product_standard_price,
+.product_price_range_line1 {
+	text-decoration: line-through;
+}
+
+.commodity>a {
+	width: 964px;
+	height: 540px;
+	margin: 0 auto;
+	position: relative;
+	top: 30px;
+}
+
+.select_the_brand {
+	width: 964px;
+	height: 372px;
+	margin: 0 auto;
+	background: fuchsia;
+}
+
+.select_the_brand>a,
+.Select_the_brand>img {
+	width: 472px;
+	height: 289px;
+}
+
+.commodity .Select_the_brand {
+	width: 970px;
+	height: 290px;
+}
+
+.commodity .Select_the_brand>a,
+.commodity .Select_the_brand>a img {
+	height: 473px;
+	height: 290px;
+	margin-top: 30px;
+	margin-left: 4px;
+}
+
+
+/*--商品栏结束--*/
+/*--内容资产开始--*/
+.content_asset{
+	
+	width: 964px;height: 274px;margin: 0 auto;/*background: chartreuse;*/
+}
+.content_asset>a,.content_asset>a>img{width: 160.5px;height: 121.97px;}
+
+.content_asset .lf{background: #f6f6f6;}
+
+/*--内容资产结束--*/
+/*历史介绍开始*/
+.history{
+	width: 964px;height: 448px;
+	margin: 0 auto;
+	/*background: fuchsia;*/
+	
+}
+.history>a,.history>a>img{width: 964px;height: 400px;text-align: center;}
+
+.history .hide_in_text{width: 964px;height: 23px;line-height: 23px;font-size: 1.3em;margin-top: 10px;color: black;font-weight: bold;}
+
+/*历史介绍结束*/
+
+
+/*底部申明开始*/
+
+.statement{
+width: 964px;height: 50px;margin: 0 auto;background: black;line-height: 50px;
+}
+.statement *{
+	display: inline-block;
+    color: #fff;
+    padding: 0 1.5rem;
+    vertical-align: top;
+    font-size: 0.875rem}
+    
+  .statement>span{margin-left: 65px;
+  
+  } 
+  /*底部申明结束*/ 
+    

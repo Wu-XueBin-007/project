@@ -1,0 +1,190 @@
+/*个人中心开始*/
+
+.breadcrumb {
+	width: 1024px;
+	height: 39px;
+	margin: 0 auto;
+	line-height: 39px;
+	/*background: green;*/
+	border-bottom: 1px solid #CBB2B7;
+}
+
+.breadcrumb>a {
+	margin-left: 33px;
+	color: black;
+}
+
+
+/*个人中心结束*/
+
+.primary_content {
+	width: 964px;
+	height: 598px;
+	margin: 0 auto;
+	background: url(../img/account-left.png) no-repeat 70px -40px;
+	/*border: 1px solid black;*/
+}
+
+.primary_content_right {
+	width: 462.72px;
+	height: auto;
+	border: 1px solid black;
+	border-radius: 15px;
+	margin: 50px 0 0 10px;
+	padding: 20px;
+}
+
+.primary_content_right .form_login {
+	width: 370.12px;
+	height: auto;
+	margin: 20px 47px 0 47px;
+/*	background: chocolate;*/
+	position: relative;
+}
+
+.form_login .form_row {
+	width: 370px;
+	height: 38px;
+	/*background: lawngreen;*/
+	margin-top: 24px;
+}
+
+.phonetext,.smstxt,.passtxt,.passdbtxt{
+	color: red;margin-left: 10px;margin-top: 10px;font-size: 14px;
+}
+
+.field_wrapper {
+	width: 370.17px;
+	height: 43px;
+	margin-top: 40px;
+}
+
+.field_wrapper>input {
+	width: 155.67px;
+	height: 38px;
+	border: 1px solid #777777;
+	border-radius: 20px;
+	padding-left: 20px;
+	
+}
+
+input.verifycode {
+	width: 177.67px;
+	height: 38px;
+	padding: 0;
+	background: #e11a2b;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+.form_login>input {
+	width: 350.17px;
+	height: 38px;
+	margin-top: 25px;
+	border: 1px solid #777777;
+	border-radius: 20px;
+	padding-left: 20px;
+}
+
+
+.form_caption{
+	width:370.17px;
+	height: 16px;
+	text-align: center;
+	line-height: 16px;
+	margin-top: 10px;
+	/*margin-bottom: 20px;*/
+	
+}
+/*.form_caption>a{
+	
+}*/
+
+
+.form_row .phone_prefix_number {
+	width: 91.53px;
+	height: 38px;
+	border: 1px solid #777;
+	border-radius: 20px 0 0 20px;
+	text-align: center;
+	line-height: 38px;
+	/*margin-left: 10px;*/
+}
+
+.form_row>input {
+	padding-left: 25px;
+	width: 247.63px;
+	height: 38px;
+	border: 1px solid #777;
+	border-radius: 0 20px 20px 0;
+}
+
+.primary_content_right .form_login>h2 {
+	width: 368.56px;
+	height: 27px;
+	font-weight: 600;
+	/*background: aqua;*/
+	font-size: 1.75em;
+	/*margin-bottom: 25px;*/
+	color: black;
+}
+
+
+/*更多方式开始*/
+
+.login_oauth {
+	width: 460.72px;
+	height: 115px;
+	/*background: navajowhite;*/
+	/*margin-top: 35px;*/
+}
+
+.middle_line {
+	width: 345.53px;
+	height: 40px;
+	/*background: fuchsia;*/
+	margin: 0 auto;
+}
+
+.middle_line>div {
+	display: inline-block;
+	width: 120px;
+	height: 20px;
+	border-bottom: 1px solid #777777;
+}
+
+.middle_line>h3 {
+	width: 105.53px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 0.75rem;
+	color: black;
+}
+
+.share {
+	width: 460px;
+	height: 59px;
+	/*background: salmon;*/
+	text-align: center;
+	line-height: 59px;
+}
+
+.share>a,
+.share>a>img {
+	width: 56px;
+	height: 56px;
+	/*margin-left: 10px;*/
+	/*margin-top: 10px;*/
+}
+
+.share .weix {
+	margin-right: 45px;
+}
+
+
+/*更多方式结束*/
+
+
+/*中间内容结束*/

@@ -1,0 +1,31 @@
+/*底部开始*/
+.footer_container{
+	width: 964px;height: 162px;margin: 20px auto;/*background: indianred;*/
+	border-top: 1px solid #CBB2B7;text-align: center;
+	
+}
+.footer_container .footer-item{
+	
+	width: 192.8px;
+	height: 114px;
+	border-right:1px solid #CBB2B7 ;
+	margin-top: 23px;
+	
+}
+.footer_item_con{
+	width: 124px;height: 114px;
+}
+ .footer_item_con>h3{font-size: 1rem;
+    font-weight: 600;
+    color: black;
+    
+    }
+    .footer_item_con>ul{margin-top: 25px;}
+    .footer_item_con>ul>li{
+    	margin-top: 15px;
+    	
+    }
+    .social_links{width: 123px;height: 48px;}
+    .social_links>li>a>img{width: 40px;height: 40px;float: left;margin-left: 15px;}
+
+/*底部结束*/

@@ -1,0 +1,442 @@
+/*包导航模块开始*/
+.breadcrumb{
+	width:964px;
+	height: 14px;
+	margin: 0 auto;
+	
+	line-height: 14px;
+	/*background: darkcyan;*/
+	clear: both;
+}
+
+.breadcrumb>a{
+    width: 154.89px;
+    height: 16px;
+   
+    line-height: 14px;
+    color: black;
+   
+}
+.breadcrumb>span{
+	
+	width: auto;
+	height: 14px;
+	color: black;
+	
+}
+/*包导航模块结束*/
+/*中间开始*/
+.pdpMain{
+	width: 964px;
+	height:auto;
+	/*background: #87CEEB;*/
+	margin: 0 auto;
+	margin-top: 30px;
+	/*overflow: hidden;*/
+	
+	clear: both;
+}
+.insets{
+	width: 357px;
+	height: 357px;
+	
+}
+.product_popup_main{
+	
+	width: 578.39px;
+	height: 121px;
+	/*background: #D93600;*/
+	/*position: relative;*/
+}
+.product_popup_main .product_brand{
+	width: 579px;
+	height: 27px;
+	font-size: 20px;
+	/*font-weight: 600;*/
+	color: #000000;
+	
+}
+
+.product_name{
+	width: 578.39px;
+	height: 19px;
+	text-align: left;
+	color: #000000;
+	margin-bottom:  10px;
+	font-size: 14px;
+	margin-top:  5px;
+}
+.price_sales{
+	font-size: 1.3em;
+	color: #000000;
+	/*margin-top: 10px;*/
+}
+
+.price_standard{
+	text-decoration:line-through;
+	
+}
+
+.product_popup_main>span{
+	width: 72.78px;
+	height: 16px;
+	text-align: center;
+	line-height: 16px;
+	margin-top: 10px;
+	
+	
+	
+	
+}
+
+.product_popup_main>span>i,.product_popup_main>span>i>img{
+	width: 15px;
+	height: 15px;
+}
+
+.attribute{
+	width: 578.39px;
+	height: 57px;
+	/*background: yellow;*/
+	/* margin-top: 20px; */
+	float: left;
+	position: relative;
+	/* text-align:  center; */
+}
+.label{
+	width: 57.83px;
+	height: 16px;
+}
+
+.attribute>img{
+	width: 48px;
+	height: 48px;
+	
+	border: 1px solid red;
+	
+}
+.co{
+	margin-top: 45px;
+}
+a.real_thing{
+	width: 14px;
+	height: 14px;
+	position: absolute;
+	left: -10px;
+	top: 30px;
+	
+	
+}
+.real_thing>img{
+	width: 14px;
+	height: 14px;
+	position: absolute;
+	left: 94px;
+	top: 0px;
+	z-index: 5;
+	
+}
+
+
+.attribute .swatchanchor{
+	width: 64px;
+	height: 28px;
+	border: 1px solid black;
+	text-align: center;
+	line-height: 28px;
+}
+div.inventory{
+	width: 578.39px;
+	height: 20.8px;
+	
+}
+
+
+.inventory>.addbtn,.inventory>.removebtn{
+	width: 20px;
+	height: 20px;
+	
+	
+}
+
+
+.txt{
+	width: 32px;
+	height: 16px;
+	text-align: center;
+	line-height: 16px;
+}
+
+.product_add_to_cart{
+	width: 578.39px;
+	height: 54px;
+	/*background: #CBB2B7;*/
+	line-height: 54px;
+	margin-top: 5px;
+}
+.product_add_to_cart>input{
+	width: 150px;
+	height: 30px;
+	margin-top: 10px;
+	/*margin-left: 10px;*/
+	background: #333;
+	color: #fff;
+	
+}
+.product_add_to_cart .buy_now{
+	margin-left: 10px;
+	background: #000000;
+	
+}
+.slick_list{
+	width: 356.67px;
+	height: 62px;
+	/*background: #E11A2B;*/
+	
+}
+.slick_list>img{
+	width: 62px;
+	height: 62px;
+	margin-left: 5px;
+	
+}
+.promotion_callout{
+	width: 964px;
+	height: 32px;
+	background: #eee;
+	text-align: center;
+	line-height: 32px;
+	
+	margin-top: 40px;
+}
+
+.promotion_callout>.callout_message{
+	font-size: 1.15rem;
+    line-height: 1.75;
+    color: #000;
+}
+
+.brandimge{
+	width: 964px;
+	height: 48px;
+	text-align: center;
+	line-height: 48px;
+	/*background: red;*/
+	margin-top: 35px;
+	
+}
+.brandimge>img{
+	width: 180px;
+	height: 45px;
+	
+}
+.Michael_Kors{
+	width: 964px;
+	height: 25px;
+	text-align: center;
+	line-height: 25px;
+	margin-top: 30px;
+	
+}
+.Michael_Kors>h2{
+     font-size: 1.2rem;
+    color: #999;
+    font-weight: 500;
+}
+
+.product_tabs{
+	width: 964px;
+	height: 56px;
+	text-align: center;
+	line-height: 56px;
+	border-top: 1px solid #666666;
+	margin-top: 40px;
+	border-bottom: 1px solid #666666;
+	
+	
+}
+.product_tabs>ul{
+	margin-left: 140px;
+}
+.product_tabs>ul>.now{
+	border-bottom: 3px solid red;
+}
+
+.j_tab{
+	margin-left: 250px;
+	
+	
+}
+.active{
+	
+	font-size: 0.875rem;
+    font-weight: 600;
+    color: black;
+    cursor: pointer;
+    width: 60px;
+    height: 54px;
+  
+}
+
+.product_contents{
+	width: 916px;
+	height: 271.59px;
+	margin-top: 30px;
+	margin-left: 28px;
+	/*background: #D93600;*/
+	
+}
+.product_contents>h1{
+	font-size: 1rem;
+    font-weight: 600;
+    margin: 0 0 10px 0;
+    color: black;
+    
+}
+.product_content_sku{
+	color: black;
+	font-size: 0.875rem;
+}
+.product_contents>ul{
+	padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+.product_contents>ul>li{
+	margin-top: 10px;
+	list-style: disc;
+	 color: black;
+}
+
+
+.product_info_title{
+	width: 916px;
+	height: 45px;
+	background: #eeeeee;
+	margin-top: 35px;
+	line-height: 45px;
+    /*font-size: 16px;*/
+    font-size: 1rem;
+    font-weight: 600;
+    padding-left: 32px;
+    color: black;
+    padding-right: 1rem;
+   /* text-align: center;*/
+ 
+}
+
+.product_info_title>img{
+	width: 16px;
+	height: 16px;
+	margin-top: 15px;
+	transform: rotateZ(-90deg);
+}
+.material{
+	width: 916px;
+	height: 24px;
+	line-height: 24px;
+	text-indent: 2rem;
+    margin: 1rem 0;
+    line-height: 24px;
+    color: black;
+}
+
+.introduce{
+	width: 916px;
+	height: 672.53px;
+	text-align: center;
+	line-height:height: 672.53px;
+	margin: 10px;
+}
+.introduce>img{
+	display: inline-block;
+	width: 550px;
+	height: 672.53px;
+	
+}
+
+.prStars{
+	width: 916px;
+	height: 56px;
+	margin: 20px auto;
+	/*background: yellow;*/
+}
+.prStarsSmall{
+	width: 160px;
+	height: 30px;
+	background: url(../img/stars_small.gif)0 0 no-repeat;
+	margin: 0 auto;
+}
+
+.prSnippetNumberOfRatingsText{
+	width: 916px;
+	height: 19px;
+	text-align: center;
+	line-height: 19px;
+	margin-top: 15px;
+	
+	
+}
+
+.prSnippetWriteReview{
+	width: 916px;
+	height: 33px;
+	margin: 0 auto;
+	/*background: aqua;*/
+	margin-top: 10px;
+	text-align: center;
+	line-height: 33px;
+	
+	
+	
+}
+.prSnippetWriteReview>.btn{
+	width: 150px;
+	height: 33px;
+	border-radius: 20px;
+	background: red;
+	text-align: center;
+	line-height: 33px;
+	color: white;
+	
+}
+
+.faq_title{
+	
+	width: 860px;
+	height: auto;
+	padding:20px auto;
+	/*background: yellow;*/
+	
+	border-bottom: 1px solid #777777;
+	
+}
+
+.service{
+	font-size: 22px;
+    font-weight: bold;
+    /*padding: 13px 10% 0;*/
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #000000;
+    
+}
+ .faq_title .faq_title_text{
+	
+color: #000000;
+	
+	
+}
+.dt{
+	margin-top: 13px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    line-height: 1.6;
+    font-size: 16px;
+    color: #000000;
+}
+
+
+
+
+/*中间结束*/

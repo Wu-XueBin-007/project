@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>商品页面</title>
+	</head>
+	<style type="text/css">
+		*{margin: 0; padding: 0;}
+		.container{
+			padding-top: 50px;
+			padding-left: 50px;
+		}
+		dl{
+			float: left;
+			margin-left: 20px;
+		}
+		dl img{
+			width: 200px;
+			height: 200px;
+		}
+		
+	</style>
+	<body>
+		<div class="container">
+			<h1>商品列表</h1>
+			<div class="cart">
+				<a href="mycart.html">我的购物车</a>
+				<span>0</span>
+			</div>
+			<h1>手机商品</h1>
+			<div class="phonelist">
+				
+			</div>
+			
+			<div style="clear: both;"></div>
+			<h1>电视商品</h1>
+			<div class="TvList">
+				
+			</div>
+		</div>
+		
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				//请求商品列表数据
+				
+			
+				
+				
+				$.ajax({
+					type:"get",
+					url:"js/product.json",
+					async:true
+				}).done(function(result){
+					//加载数据
+					//手机的数据
+					
+				var phonelist=result.phoneList;
+				console.log(phonelist)
+				//电视的数据
+				var tvlist=result.Tvlist;
+				var liststr="";
+				//加载手机的数据
+				loaddata(phonelist,$(".phonelist"));	
+				//加载电视的数据
+				loaddata(tvlist,$(".TvList"));
+				
+				function loaddata(listdata,parentele){
+						liststr="";
+						//循环数据
+						$.each(listdata, function(index,ele) {
+							liststr+='<dl pid="'+ele.pid+'">'
+							+'<dt><img src="'+ele.imgsrc+'"/></dt>'
+							+'<dd>'+ele.name+'</dd>'
+							+'<dd>'+ele.des+'</dd>'
+							+'<dd><span>￥</span><span>'+ele.price+'</span></dd>'
+							+'<dd><button>添加购物车</button></dd>'
+						+'</dl>'
+						})
+						//把拼接好的标签放到父元素中
+						parentele.html(liststr);
+				}			
+					}).fail(function(){
+						alert("失败")
+					})
+					
+					$.ajax({
+						type:"get",
+						url:"",
+						async:true
+ 				      }).done(function(){
+ 				      	$('dl').on('click',function(){
+ 				      		alert(1)
+						var pid=$(this).attr('pid')
+						window.location.href='xiangqing.html'+pid		      	
+ 				      })
+
+					}).fail(function(){
+						alert("失败")
+					})
+					
+					})
+										
+					
+			
+			
+		</script>
+	</body>
+</html>

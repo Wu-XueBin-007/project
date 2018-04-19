@@ -1,0 +1,152 @@
+/*个人中心开始*/
+
+.breadcrumb {
+	width: 1024px;
+	height: 39px;
+	margin: 0 auto;
+	line-height: 39px;
+	/*background: green;*/
+	border-bottom: 1px solid #CBB2B7;
+}
+
+.breadcrumb>a {
+	margin-left: 33px;
+	color: black;
+}
+
+
+/*个人中心结束*/
+
+
+/*中间内容开始*/
+
+.primary_content {
+	width: 964px;
+	height: auto;
+	margin: 0 auto;
+	background: url(../img/account-left.png) no-repeat 70px -40px;
+	/*border: 1px solid black;*/
+	overflow: hidden;
+}
+
+.primary_content_right {
+	width: 462.72px;
+	height: 490px;
+	border: 1px solid black;
+	border-radius: 15px;
+	margin: 55px 0;
+	
+}
+
+.primary_content_right .form_login{
+	width: 368px;
+	height: 290px;
+	margin:40px 47px 0 47px;
+	/*background: chocolate;*/
+	position: relative;
+	overflow: hidden;
+}
+.primary_content_right .form_login>h2{
+	width: 368.56px;
+	height: 27px;
+	font-weight: 600;
+	/*background: aqua;*/
+	font-size: 1.75em;
+	/*margin-bottom: 25px;*/
+	color: black;
+	
+}
+.primary_content_right .form_login>input{
+	width: 346.56px;
+	height: 36px;
+	border: 1px solid #777777;
+	border-radius: 20px;
+	padding-left: 20px;
+	margin-top: 12px;
+margin-bottom: 5px;
+}
+.primary_content_right .form_login .denglu{
+	
+    margin: 10px;
+}
+
+
+.form_login .texterror,.passerro{
+	margin-left: 20px;color: red;
+}
+
+.texterror1,.passerror1{
+	margin-left: 20px;
+	color: red;
+}
+
+
+.form_login input.btn{
+	width: 368.56px;
+	height: 40px;
+	
+	
+}
+
+.form_login .lf{
+	left: 0;
+	bottom: 0;
+	text-decoration: underline;
+}
+
+.form_login .rg{
+	right: 0;
+	bottom: 0;
+	text-decoration: underline;
+}
+
+.login_oauth{
+	
+	width: 460.72px;
+	height: 115px;
+	/*background: navajowhite;*/
+	margin-top: 35px;
+}
+
+.middle_line{
+	width: 345.53px;
+	height: 40px;
+	/*background: fuchsia;*/
+	margin: 0 auto;
+}
+.middle_line>div{
+	display: inline-block;
+	width:120px ;
+	height: 20px;
+	border-bottom: 1px solid #777777;
+}
+.middle_line>h3{
+	width: 105.53px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 0.75rem;
+	color: black;
+}
+.share{
+	
+	width: 460px;
+	height: 59px;
+	/*background: salmon;*/
+	text-align: center;
+	line-height: 59px;
+}
+.share>a,.share>a>img{
+	width: 56px;
+	height: 56px;
+	/*margin-left: 10px;*/
+	margin-top: 10px;
+	
+}
+
+.share .weix{
+	margin-right: 45px;
+}
+
+
+/*中间内容结束*/
